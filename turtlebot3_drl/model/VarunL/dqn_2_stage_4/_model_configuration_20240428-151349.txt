@@ -1,0 +1,51 @@
+device = cpu
+simulation_speed = 1
+state_size = 44
+action_size = 2
+hidden_size = 512
+input_size = 44
+batch_size = 128
+buffer_size = 1000000
+discount_factor = 0.99
+learning_rate = 0.003
+tau = 0.003
+step_time = 0.01
+loss_function = <function smooth_l1_loss at 0x7f8d909b00d0>
+epsilon = 1.0
+epsilon_decay = 0.9995
+epsilon_minimum = 0.05
+reward_function = A
+backward_enabled = False
+stacking_enabled = False
+stack_depth = 3
+frame_skip = 4
+networks = [DuelingDQN(
+  (input1): Linear(in_features=44, out_features=512, bias=True)
+  (input2): Linear(in_features=512, out_features=512, bias=True)
+  (input3): Linear(in_features=512, out_features=512, bias=True)
+  (input4): Linear(in_features=512, out_features=512, bias=True)
+  (state_value): Linear(in_features=512, out_features=1, bias=True)
+  (action_advantage): Linear(in_features=512, out_features=5, bias=True)
+  (elu): ELU(alpha=1.0)
+), DuelingDQN(
+  (input1): Linear(in_features=44, out_features=512, bias=True)
+  (input2): Linear(in_features=512, out_features=512, bias=True)
+  (input3): Linear(in_features=512, out_features=512, bias=True)
+  (input4): Linear(in_features=512, out_features=512, bias=True)
+  (state_value): Linear(in_features=512, out_features=1, bias=True)
+  (action_advantage): Linear(in_features=512, out_features=5, bias=True)
+  (elu): ELU(alpha=1.0)
+)]
+iteration = 0
+actor_size = 5
+possible_actions = [[0.3, -1.0], [0.3, -0.5], [1.0, 0.0], [0.3, 0.5], [0.3, 1.0]]
+target_update_frequency = 1000
+optimizer = AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.003
+    weight_decay: 0.01
+)
+
