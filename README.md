@@ -85,10 +85,19 @@ Both models were tested over the next 20 episodes in a more complex environment 
 ### Training Phase - 1 Results
 <!-- Add simulation videos, GIFs, and images here -->
 [Link to Training Phase - 1 Video](https://drive.google.com/file/d/1qH-McJhEq93v7Rdqwxw6BZ8j4bVdsPM-/view)
+![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/46d81f6f-bad9-46a8-9e62-4ccbdbec4ce5)
+![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/55be9366-41c3-44d6-b7ed-329fad1ab66f)
+
 
 ### Training Phase - 2 Results
 <!-- Add simulation videos, GIFs, and images here -->
 [Link to Training Phase - 2 Video](https://drive.google.com/file/d/1tsFBgujWl74BMfZTGFvLvy3U1bwCoKbR/view)
+
+![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/a50eb866-e3a8-446c-8cf3-cfcfb9735ddd)
+![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/ad781ed1-0718-4566-a398-5fe3dbf6ca7c)
+
+### Map Used 
+![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/d53c7b5a-0720-4ba9-a082-cec73d425807)
 
 ### Extended Training Results
 <!-- Add simulation videos, GIFs, and images here -->
@@ -97,6 +106,7 @@ Both models were tested over the next 20 episodes in a more complex environment 
 ### Testing Results
 <!-- Add simulation videos, GIFs, and images here -->
 [Link to Testing Video](https://drive.google.com/file/d/12PErRUwAVW8FRP7aUm8Ux1sWXIeSSM-0/view)
+![download](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/475d092c-1f9d-4b39-a210-6f1543f132a6)
 
 ## Problems Faced
 1. **GPU Training Interruptions**: Our initial attempts to train the model using the GPU were met with unexpected system issues, causing the training to stop before completion. We decided to proceed without the GPU, which increased the training duration but enabled us to achieve the planned outcomes.
