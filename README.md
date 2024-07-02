@@ -93,7 +93,7 @@ Both models were tested over the next 20 episodes in a more complex environment 
 <!-- Add simulation videos, GIFs, and images here -->
 [Link to Training Phase - 2 Video](https://drive.google.com/file/d/1tsFBgujWl74BMfZTGFvLvy3U1bwCoKbR/view)
 
-![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/a50eb866-e3a8-446c-8cf3-cfcfb9735ddd)
+![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/61f81194-a9f4-4f98-9c64-5e9de4c3b864)
 ![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/ad781ed1-0718-4566-a398-5fe3dbf6ca7c)
 
 ### Map Used 
