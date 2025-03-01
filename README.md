@@ -82,7 +82,22 @@ Both models were tested over the next 20 episodes in a more complex environment 
 - **Dueling Double DQN**: The robot effectively navigated to randomly spawning goal points in every episode, occasionally hitting dynamic obstacles but rarely colliding with wall obstacles and experiencing very few timeouts.
 
 ## Simulation Videos and Images
+### Training Phase - 1 Results
+<!-- Add simulation videos, GIFs, and images here -->
+[Link to Training Phase - 1 Video](https://drive.google.com/file/d/1qH-McJhEq93v7Rdqwxw6BZ8j4bVdsPM-/view)
+![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/46d81f6f-bad9-46a8-9e62-4ccbdbec4ce5)
+![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/55be9366-41c3-44d6-b7ed-329fad1ab66f)
 
+
+### Training Phase - 2 Results
+<!-- Add simulation videos, GIFs, and images here -->
+[Link to Training Phase - 2 Video](https://drive.google.com/file/d/1tsFBgujWl74BMfZTGFvLvy3U1bwCoKbR/view)
+
+![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/61f81194-a9f4-4f98-9c64-5e9de4c3b864)
+![image](https://github.com/cravotics/Intelligent-Robotic-Navigation/assets/90138418/ad781ed1-0718-4566-a398-5fe3dbf6ca7c)
+
+### Map Used 
+![image](https://github.com/cravotics/Intelligent-Rob
 
 ### Extended Training Results
 <!-- Add simulation videos, GIFs, and images here -->
